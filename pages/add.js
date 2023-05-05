@@ -27,7 +27,7 @@ function addNewHero() {
         method: "POST",
         headers:{
           "Content-Type":"application/json"
-        },
+        }, 
         data: JSON.stringify(form)
       })
       router.push('/')
